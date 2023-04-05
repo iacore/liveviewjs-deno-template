@@ -2,7 +2,7 @@
 
 Run server:
 ```
-deno run --watch --allow-run --allow-read --allow-write --allow-net --allow-env --import-map=import_map.json src/server/index.ts
+deno task dev
 ```
 
 ## About
