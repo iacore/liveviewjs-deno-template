@@ -35,6 +35,6 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 // listen for requests
-const port = Number(Deno.env.get("PORT") ?? 9001);
+const port = Number(Deno.env.get("PORT") ?? 3124);
 console.log(`LiveViewJS (Deno) is listening at: http://localhost:${port}`);
 await app.listen({ port });

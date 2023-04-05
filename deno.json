@@ -1,6 +1,7 @@
 {
     "importMap": "import_map.json",
     "tasks": {
-        "dev": "deno run --watch --allow-run --allow-read --allow-write --allow-net --allow-env src/server/index.ts"
+        "dev": "deno run --watch --allow-read=. --allow-write=key.json,/tmp --allow-net --allow-env=PORT src/server/index.ts",
+        "build-client": "deno bundle --no-check src/client/index.ts > public/js/index.js"
     }
 }

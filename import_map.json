@@ -8,9 +8,9 @@
     "liveviewjs": "https://raw.githubusercontent.com/floodfx/liveviewjs/main/packages/core/mod.ts",
     "@liveviewjs/deno": "https://raw.githubusercontent.com/floodfx/liveviewjs/main/packages/deno/mod.ts",
     "@liveviewjs/examples": "https://raw.githubusercontent.com/floodfx/liveviewjs/main/packages/examples/mod.ts",
-    "nprogress": "npm:nprogress",
-    "phoenix": "npm:phoenix",
-    "phoenix_html": "npm:phoenix_html",
-    "phoenix_live_view": "npm:phoenix_live_view"
+    "nprogress": "https://esm.sh/nprogress",
+    "phoenix": "https://esm.sh/phoenix",
+    "phoenix_html": "https://esm.sh/phoenix_html",
+    "phoenix_live_view": "https://esm.sh/phoenix_live_view"
   }
 }
